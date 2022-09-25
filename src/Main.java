@@ -110,7 +110,7 @@ public class Main {
         System.out.println("За " + minutesInDay + " минуты машина произвела " + perDay + " бутылок ");
         int minutesIn3Day = minutesInDay*hourInDay;
         int Days3 = perDay*3;
-        System.out.println("За  " + minutesInDay*hourInDay + " минуты машина произвела " + Days3 + " бутылок ");
+        System.out.println("За  " + minutesIn3Day + " минуты машина произвела " + Days3 + " бутылок ");
 
         byte DaysInMonth = 30;
         int minutesInMonth = minutesInDay * DaysInMonth;
@@ -142,9 +142,8 @@ public class Main {
         byte iceCream = 100;
         int totalWeightIceCream = iceCream*2;
         System.out.println("общий вес мроженного " +totalWeightIceCream+ " грамм");
-
-        byte egg = 70;
-        int totalWeightEgg = 70*4;
+        int egg = 70;
+        int totalWeightEgg = egg *4;
         System.out.println("общий вес яиц " +totalWeightEgg+ " грамм");
 
         float totalWeightProducts = (totalWeightBananas+totalWeightMilk+totalWeightIceCream+totalWeightEgg)/1000f;
@@ -154,6 +153,7 @@ public class Main {
         System.out.println("за " +losingWight250+ " дней спртсмен похудеет если будет питаться по 250 грамм в день ");
         int losingWight500 = 7000/500;
         System.out.println("за " +losingWight500+ " дней спртсмен похудеет если будет питаться по 250 грамм в день ");
+
 
 
 
